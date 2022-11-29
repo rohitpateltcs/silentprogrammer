@@ -8,7 +8,7 @@ import prod5 from "../Assets/prod5.jpg";
 
 const Products = () => {
   return (
-    <div className="flex max-w-6xl mx-auto space-x-3">
+    <div className="grid max-w-6xl mx-auto space-x-3 sm:grid-cols-2 md:grid-cols-3">
       <Product productimg={prod1} />
       <Product productimg={prod2} />
       <Product productimg={prod3} />

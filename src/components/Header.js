@@ -17,17 +17,17 @@ const Header = () => {
         <div className="flex sm:hidden space-x-7">
           <select>
             <option>
-              <h4>About</h4>
+              <h4>Home</h4>
             </option>
             <option>
-              <h4>Article</h4>
+              <h4>Content</h4>
             </option>
 
             <option>
-              <h4>Speaking</h4>
+              <h4>Project</h4>
             </option>
             <option>
-              <h4>Projects</h4>
+              <h4>About</h4>
             </option>
             <option>
               <h4>Users</h4>
@@ -36,10 +36,10 @@ const Header = () => {
         </div>
 
         <div className="hidden sm:flex space-x-7 bg-gray-200 items-center px-4 rounded-md">
+          <h4>Home</h4>
+          <h4>Content</h4>
+          <h4>Project</h4>
           <h4>About</h4>
-          <h4>Article</h4>
-          <h4>Speaking</h4>
-          <h4>Projects</h4>
           <h4>Users</h4>
         </div>
         <div>
